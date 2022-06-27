@@ -15,3 +15,23 @@ function getNumberInfo() {
     // Display Information in the Browser
     document.getElementById("numinfo").innerHTML = txt;
 }
+
+/*
+    Function to return the sum of the numbers on the diagonals in an n by n
+    spiral formed in the same way
+    spiralDiagonals(101)  returns 692101
+    spiralDiagonals(303)  returns 18591725
+    spiralDiagonals(505)  returns 85986601
+    spiralDiagonals(1001) returns 669171001
+*/
+function spiralDiagonals(n) {
+    let total = 1;
+
+    for (let i=1;i<parseInt(Math.ceil(n/2.0));i++) {
+        let odd = 2 * i + 1;
+        let even = 2 * i;
+        total = total + 4 * odd ** 2 - 6 * even;
+    }
+
+    return total;
+}
