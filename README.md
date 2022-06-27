@@ -18,7 +18,7 @@ Information at [Project Euler 028](https://projecteuler.net/problem=28)
 
 **Getting Started**
 
-Enter a whole number between 2 and 1500 and click on the Submit Button.  The number that is entered is the spiral size.  For example, if you entered 5, the spiral is 5 x 5.  You will see the sum of the diagonals in an `n` by `n` spiral, unless you have made an invalid input.  For example, if you entered 5, you would expect the sum of the diagonals in a 5 x 5 spiral to be 101.  Click on the Reset Button to clear the information or to start again.
+Enter a whole number between 2 and 1500 and click on the Submit Button.  The number that is entered is the spiral size.  For example, if you entered 5, the spiral is 5 x 5.  You will see the sum of the diagonals in an `n` by `n` spiral, unless you have made an invalid input.  For example, if you entered 5, you would expect the sum of the numbers on the diagonals in a 5 x 5 spiral to be 101.  Click on the Reset Button to clear the information or to start again.
 
 
 **User Stories**
@@ -43,6 +43,18 @@ As a user, I expect the function `spiralDiagonals(1001)` to return 669171001.
 **Information Architecture**
 
 The function `spiralDiagonals(n)` returns a number, where `n` is a number between 2 and 1500.  The number `n` is the spiral size.
+
+## Features
+
+Allows the user to enter a number (size of the spiral) as well as getting the sum of the numbers on the diagonals in that spiral size.  Performs checks on valid user input.  If the input is not valid, an error message is displayed.
+
+## Technologies
+
+Uses HTML5, CSS3, JavaScript, Bootstrap 5.2.0-Beta1 and Google Fonts.
+
+## Testing
+
+Ensure all user stories have been met.
 
 
 
