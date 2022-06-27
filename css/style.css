@@ -21,10 +21,6 @@ table {
     font-family: "Roboto Mono", monospace;
 }
 
-td {
-    text-align: right;
-}
-
 .diagonal {
     color: #D2386C;
 }
