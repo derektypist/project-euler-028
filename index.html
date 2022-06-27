@@ -21,7 +21,7 @@
         <p>Starting with the number 1 and moving to the right in a clockwise direction a 5 x 5 spiral is formed as follows:</p>
         <!-- Set Up Table with 5 rows -->
         <article class="table-responsive">
-            <table class="table">
+            <table class="table table-borderless table-hover">
                 <!-- First Row -->
                 <tr class="spiral">
                     <td class="diagonal">21</td>
@@ -69,7 +69,30 @@
             </table>
         </article>
         <p>It can be verified that the sum of the numbers on the diagonals is 101.</p>
-        <p>The aim is to find the sum of the diagonals in an n x n spiral formed in the same way.  Begin by entering spiral size.</p>
+        <p>The aim is to find the sum of the diagonals in an n x n spiral formed in the same way.  Begin by entering a number (spiral size).</p>
+    </section>
+
+    <!-- Set Up Form -->
+    <section class="container-fluid">
+        <form>
+            <!-- Set Up Label and Input -->
+            <article class="mb-3">
+                <label for="mynumber" class="form-label">Number (Required)</label>
+                <input class="form-control" placeholder="Enter whole number between 2 and 1500 (e.g. 5)" title="Enter whole number between 2 and 1500 (e.g. 5)" id="mynumber">
+            </article>
+
+            <!-- Set Up and Center Buttons -->
+            <article class="d-grid gap-2 d-flex justify-content-center">
+                <button type="button" onclick="getNumberInfo()" class="btn btn-info">Submit</button>
+                <button type="reset" onclick="clearInfo()" class="btn btn-warning">Reset</button>
+            </article>
+        </form>
+
+        <!-- Display Number Information -->
+        <p id="numinfo"></p>
+
+        <!-- Load Script -->
+        <script src="js/script.js"></script>
     </section>
 </body>
 </html>
