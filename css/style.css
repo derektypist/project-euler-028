@@ -19,7 +19,10 @@ h2 {
 
 table {
     font-family: "Roboto Mono", monospace;
-    padding: 1.5rem;
+}
+
+td {
+    text-align: right;
 }
 
 .diagonal {
