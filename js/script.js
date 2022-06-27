@@ -8,7 +8,7 @@ function getNumberInfo() {
     if (isNaN(num) || num.toString().length == 0 || num<2 || num> 1500 || !Number.isInteger(Number(num))) {
         txt += `Invalid Input.  Please enter a whole number between 2 and 1500.`;
     } else {
-        txt += `You have entered the number ${num}. <p>`;
+        txt += `You have entered the number ${num}.  `;
         txt += `Sum of the numbers on the diagonals in an ${num} x ${num} spiral is ${spiralDiagonals(num)}.`;
     }
 
