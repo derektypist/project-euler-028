@@ -10,7 +10,7 @@ Starting with the number 1 and moving to the right in a clockwise direction a 5 
 
 It can be verified that the sum of the numbers on the diagonals is 101.
 
-The aim is to find the sum of the diagonals in an `n` x `n` spiral formed in the same way using HTML Forms and JavaScript.
+The aim is to find the sum of the numbers on the diagonals in an `n` x `n` spiral formed in the same way using HTML Forms and JavaScript.
 
 Information at [Project Euler 028](https://projecteuler.net/problem=28)
 
